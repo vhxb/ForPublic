@@ -58,7 +58,7 @@
       "settings": {
         "clients": [
           {
-            "id": "dac740c7-cda5-4720-b0ec-612cfd8e0e3e", // 填写你的 UUID
+            "id": "", // 填写你的 UUID
             "flow": "xtls-rprx-vision",
             "level": 0,
             "email": "vhxb666@gamil.com"
