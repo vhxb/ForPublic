@@ -1,3 +1,8 @@
+// Changed parameters:
+// 1. "用户名"
+// 2. "id"
+
+
 // REFERENCE:
 // https://github.com/XTLS/Xray-examples
 // https://xtls.github.io/config/
@@ -11,8 +16,8 @@
   // 1\_日志设置
   "log": {
     "loglevel": "warning", // 内容从少到多: "none", "error", "warning", "info", "debug"
-    "access": "/home/molecular/xray_log/access.log", // 访问记录
-    "error": "/home/molecular/xray_log/error.log" // 错误记录
+    "access": "/home/用户名/xray_log/access.log", // 访问记录
+    "error": "/home/用户名/xray_log/error.log" // 错误记录
   },
   // 2_DNS 设置
   "dns": {
@@ -78,8 +83,8 @@
           "alpn": "http/1.1",
           "certificates": [
             {
-              "certificateFile": "/home/molecular/xray_cert/xray.crt",
-              "keyFile": "/home/molecular/xray_cert/xray.key"
+              "certificateFile": "/home/用户名/xray_cert/xray.crt",
+              "keyFile": "/home/用户名/xray_cert/xray.key"
             }
           ]
         }
